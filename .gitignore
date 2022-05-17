@@ -1,4 +1,7 @@
-# KiCad stuff
+# Extra: software secrets
+Secrets.hpp
+
+# KiCad stuff (mostly from Github's default KiCad ignore file)
 
 # Temporary files
 *.000
