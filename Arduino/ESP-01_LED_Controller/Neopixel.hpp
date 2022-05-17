@@ -11,15 +11,17 @@
 // The amount of time between LED updates
 #define DELAY 100
 
-//#define DEFAULT_PATTERN_LENGTH 12
-//#define DEFAULT_PATTERN {       \
-//  C_BLUE,   C_BLUE,   C_BLUE,   \
-//  C_PINK,   C_PINK,   C_PINK,   \
-//  C_WHITE,  C_WHITE,  C_WHITE,  \
-//  C_PINK,   C_PINK,   C_PINK,   \
-//}
-#define DEFAULT_PATTERN_LENGTH 3
-#define DEFAULT_PATTERN {C_RED, C_GREEN, C_BLUE}
+#define DEFAULT_PATTERN_LENGTH 24
+#define DEFAULT_PATTERN {       \
+  C_BLUE,   C_BLUE,   C_BLUE,   \
+  C_BLUE,   C_BLUE,   C_BLUE,   \
+  C_PINK,   C_PINK,   C_PINK,   \
+  C_PINK,   C_PINK,   C_PINK,   \
+  C_WHITE,  C_WHITE,  C_WHITE,  \
+  C_WHITE,  C_WHITE,  C_WHITE,  \
+  C_PINK,   C_PINK,   C_PINK,   \
+  C_PINK,   C_PINK,   C_PINK,   \
+}
 
 Adafruit_NeoPixel pixels(PIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
