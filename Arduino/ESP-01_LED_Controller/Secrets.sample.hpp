@@ -1,3 +1,5 @@
+// NOTE: Copy this file to "Secrets.hpp" and fill in your information!
+
 #ifndef SECRETS_HPP
 #define SECRETS_HPP
 
@@ -5,11 +7,11 @@
 
 //Unfortunately it is not possible to have persistent WiFi credentials stored as anything but plain text. Obfuscation would be the only feasible barrier.
 #ifndef STASSID
-#define STASSID "ErinTestNet"
-#define STAPSK  "5177547181"
+#define STASSID "My Wi-Fi Network"
+#define STAPSK  "hunter2"
 #endif
 
-// Default auth data
+// Default auth credentials for the web server
 #define DEFAULT_LOGIN "admin"
 #define DEFAULT_PASSWORD "changeme"
 
