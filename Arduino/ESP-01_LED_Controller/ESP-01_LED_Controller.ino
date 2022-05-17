@@ -6,12 +6,14 @@
 
 
 void setup() {
-  //Initialize wifi
+  Serial.begin(9600);
+
+  // Initialize wifi
   WiFi.mode(WIFI_STA);
   WiFi.begin(STASSID, STAPSK);
   if (WiFi.waitForConnectResult() != WL_CONNECTED)
   {
-    Serial.println("WiFi Connect Failed! Rebooting...");
+    Serial.println("WiFi Connect Failed! Rebooting after 1 second...");
     delay(1000);
     ESP.restart();
   }
