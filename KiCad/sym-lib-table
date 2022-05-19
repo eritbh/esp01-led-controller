@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name _Project)(type Legacy)(uri ${KIPRJMOD}/_Project.lib)(options "")(descr ""))
+  (lib (name "_Project")(type "KiCad")(uri "${KIPRJMOD}/_Project.kicad_sym")(options "")(descr ""))
+  (lib (name "RGB-strip-controller-rescue")(type "KiCad")(uri "${KIPRJMOD}/RGB strip controller-rescue.kicad_sym")(options "")(descr ""))
 )
