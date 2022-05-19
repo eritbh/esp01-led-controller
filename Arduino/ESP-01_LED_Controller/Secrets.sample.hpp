@@ -3,13 +3,12 @@
 #ifndef SECRETS_HPP
 #define SECRETS_HPP
 
-// Wifi auth data
-
-//Unfortunately it is not possible to have persistent WiFi credentials stored as anything but plain text. Obfuscation would be the only feasible barrier.
-#ifndef STASSID
+// Wifi network name and password
 #define STASSID "My Wi-Fi Network"
 #define STAPSK  "hunter2"
-#endif
+
+// Set the hostname of the device to help in identifying it on your local network
+#define HOSTNAME "ledboard"
 
 // Default auth credentials for the web server
 #define DEFAULT_LOGIN "admin"

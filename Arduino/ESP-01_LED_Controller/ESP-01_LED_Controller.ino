@@ -10,6 +10,7 @@ void setup() {
 
   // Initialize wifi
   WiFi.mode(WIFI_STA);
+  WiFi.hostname(HOSTNAME);
   WiFi.begin(STASSID, STAPSK);
   if (WiFi.waitForConnectResult() != WL_CONNECTED)
   {
